@@ -1,0 +1,19 @@
+# PermissionHelper
+Android 6.0权限申请
+##使用
+### 添加依赖
+ 1.在Project下的gradle中添加添加JitPack仓库
+ 
+
+    allprojects {
+        repositories {
+          //...其他仓库
+            maven { url 'https://www.jitpack.io' }
+        }
+    }
+ 2.在项目中添加PermissionHelper的依赖,其中XYZ表示版本号 如 1.0.0
+ 
+
+    dependencies {
+            implementation 'com.github.happyldc:PermissionHelper:X.Y.Z'
+    }
