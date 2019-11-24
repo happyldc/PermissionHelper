@@ -1,14 +1,12 @@
 package demo.happyldc.com.permissiondemo;
 
 import android.Manifest;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.happyldc.helper.permission.ApplyResultCallback;
 import com.happyldc.helper.permission.PermissionHelper;
-import com.happyldc.helper.permission.PermissionResultInfo;
 import com.happyldc.helper.permission.WrapApplyResultCallback;
 
 public class MainActivity extends AppCompatActivity {
